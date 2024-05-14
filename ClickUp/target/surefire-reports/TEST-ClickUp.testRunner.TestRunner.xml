@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ClickUp.testRunner.TestRunner" time="8.716" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/nikita_j/IdeaProjects/ClickUp/target/test-classes:/Users/nikita_j/IdeaProjects/ClickUp/target/classes:/Users/nikita_j/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/nikita_j/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-java/7.2.3/cucumber-java-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-core/7.2.3/cucumber-core-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-gherkin/7.2.3/cucumber-gherkin-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.2.3/cucumber-gherkin-messages-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/nikita_j/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-expressions/15.0.1/cucumber-expressions-15.0.1.jar:/Users/nikita_j/.m2/repository/io/cucumber/datatable/7.2.3/datatable-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-plugin/7.2.3/cucumber-plugin-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/docstring/7.2.3/docstring-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/nikita_j/.m2/repository/io/cucumber/ci-environment/8.1.0/ci-environment-8.1.0.jar:/Users/nikita_j/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-junit/7.2.3/cucumber-junit-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/Users/nikita_j/.m2/repository/io/cucumber/gherkin-jvm-deps/1.0.4/gherkin-jvm-deps-1.0.4.jar:/Users/nikita_j/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/nikita_j/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/nikita_j/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/nikita_j/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/nikita_j/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/nikita_j/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/nikita_j/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/nikita_j/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/nikita_j/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/nikita_j/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/nikita_j/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/nikita_j/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/nikita_j/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/nikita_j/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/nikita_j/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/nikita_j/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/nikita_j/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/nikita_j/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/nikita_j/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar:/Users/nikita_j/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/nikita_j/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/Users/nikita_j/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/nikita_j/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/nikita_j/IdeaProjects/ClickUp/target/surefire/surefirebooter-20240514144157710_3.jar /Users/nikita_j/IdeaProjects/ClickUp/target/surefire 2024-05-14T14-41-57_611-jvmRun1 surefire-20240514144157710_1tmp surefire_0-20240514144157710_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/nikita_j/IdeaProjects/ClickUp/target/test-classes:/Users/nikita_j/IdeaProjects/ClickUp/target/classes:/Users/nikita_j/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/nikita_j/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-java/7.2.3/cucumber-java-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-core/7.2.3/cucumber-core-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-gherkin/7.2.3/cucumber-gherkin-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.2.3/cucumber-gherkin-messages-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/nikita_j/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-expressions/15.0.1/cucumber-expressions-15.0.1.jar:/Users/nikita_j/.m2/repository/io/cucumber/datatable/7.2.3/datatable-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-plugin/7.2.3/cucumber-plugin-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/docstring/7.2.3/docstring-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/nikita_j/.m2/repository/io/cucumber/ci-environment/8.1.0/ci-environment-8.1.0.jar:/Users/nikita_j/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/nikita_j/.m2/repository/io/cucumber/cucumber-junit/7.2.3/cucumber-junit-7.2.3.jar:/Users/nikita_j/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/Users/nikita_j/.m2/repository/io/cucumber/gherkin-jvm-deps/1.0.4/gherkin-jvm-deps-1.0.4.jar:/Users/nikita_j/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/nikita_j/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/nikita_j/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/nikita_j/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/nikita_j/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/nikita_j/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/nikita_j/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/nikita_j/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/nikita_j/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/nikita_j/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/nikita_j/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/nikita_j/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/nikita_j/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/nikita_j/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/nikita_j/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/nikita_j/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/nikita_j/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/nikita_j/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/nikita_j/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar:/Users/nikita_j/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/Users/nikita_j/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/Users/nikita_j/.m2/repository/org/assertj/assertj-core/3.10.0/assertj-core-3.10.0.jar:/Users/nikita_j/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/nikita_j"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/nikita_j/IdeaProjects/ClickUp"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/nikita_j/IdeaProjects/ClickUp/target/surefire/surefirebooter-20240514144157710_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="user.name" value="nikita_j"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/nikita_j/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/w0/b9vk8gt52590y9gg5j6btqw40000gn/T/"/>
+    <property name="idea.version" value="2024.1"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="user.dir" value="/Users/nikita_j/IdeaProjects/ClickUp"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/nikita_j/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="Create a new Folder in ClickUp Space and check the name" classname="ClickUp feature" time="8.41">
+    <system-out><![CDATA[
+Scenario: Create a new Folder in ClickUp Space and check the name &amp#27;[90m# src/test/resources/features/ClickUpFeature.feature:3&amp#27;[0m
+Request method:	GET
+Request URI:	https://api.clickup.com/api/v2/space/90152064765
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=pk_68663793_UZAS83JMQLMF40PEBEY6XY1LJAUAXH63
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 14 May 2024 11:42:00 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+x-dns-prefetch-control: off
+expect-ct: max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+content-language: en-US
+x-datadog-trace-id: 3389162209907602043
+content-security-policy: frame-ancestors 'self'
+cache-control: no-cache, no-store
+pragma: no-cache
+expires: 0
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 91
+x-ratelimit-reset: 1715686937
+Timing-Allow-Origin: *
+content-encoding: gzip
+x-received-from: shard-prod-eu-west-1-3
+
+{
+    "id": "90152064765",
+    "name": "TestSpace",
+    "color": "#f17ead",
+    "private": false,
+    "avatar": null,
+    "admin_can_manage": false,
+    "statuses": [
+        {
+            "id": "p90152064765_S9uL4Tkh",
+            "status": "to do",
+            "type": "open",
+            "orderindex": 0,
+            "color": "#87909e"
+        },
+        {
+            "id": "p90152064765_pC9BNbF8",
+            "status": "in progress",
+            "type": "custom",
+            "orderindex": 1,
+            "color": "#5f55ee"
+        },
+        {
+            "id": "p90152064765_vQlvq7JP",
+            "status": "complete",
+            "type": "closed",
+            "orderindex": 2,
+            "color": "#008844"
+        }
+    ],
+    "multiple_assignees": true,
+    "features": {
+        "due_dates": {
+            "enabled": true,
+            "start_date": true,
+            "remap_due_dates": true,
+            "remap_closed_due_date": false
+        },
+        "sprints": {
+            "enabled": false
+        },
+        "time_tracking": {
+            "enabled": true,
+            "harvest": false,
+            "rollup": false,
+            "default_to_billable": 2
+        },
+        "points": {
+            "enabled": false
+        },
+        "custom_items": {
+            "enabled": false
+        },
+        "priorities": {
+            "enabled": true,
+            "priorities": [
+                {
+                    "color": "#f50000",
+                    "id": "1",
+                    "orderindex": "1",
+                    "priority": "urgent"
+                },
+                {
+                    "color": "#f8ae00",
+                    "id": "2",
+                    "orderindex": "2",
+                    "priority": "high"
+                },
+                {
+                    "color": "#6fddff",
+                    "id": "3",
+                    "orderindex": "3",
+                    "priority": "normal"
+                },
+                {
+                    "color": "#d8d8d8",
+                    "id": "4",
+                    "orderindex": "4",
+                    "priority": "low"
+                }
+            ]
+        },
+        "tags": {
+            "enabled": true
+        },
+        "time_estimates": {
+            "enabled": true,
+            "rollup": false,
+            "per_assignee": false
+        },
+        "check_unresolved": {
+            "enabled": true,
+            "subtasks": null,
+            "checklists": null,
+            "comments": null
+        },
+        "zoom": {
+            "enabled": false
+        },
+        "milestones": {
+            "enabled": true
+        },
+        "custom_fields": {
+            "enabled": true
+        },
+        "remap_dependencies": {
+            "enabled": true
+        },
+        "dependency_warning": {
+            "enabled": true
+        },
+        "status_pies": {
+            "enabled": true
+        },
+        "multiple_assignees": {
+            "enabled": true
+        },
+        "emails": {
+            "enabled": true
+        }
+    },
+    "archived": false
+}
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mSpace is setup and has correct info&amp#27;[0m                       &amp#27;[90m# ClickUp.stepDef.ClickUpSteps.getSpaceAndInfo()&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.clickup.com/api/v2/space/90152064765/folder
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=pk_68663793_UZAS83JMQLMF40PEBEY6XY1LJAUAXH63
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "API Folder"
+}
+HTTP/1.1 200 OK
+Date: Tue, 14 May 2024 11:42:01 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+x-dns-prefetch-control: off
+expect-ct: max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+content-language: en-US
+x-datadog-trace-id: 3550277805802698395
+content-security-policy: frame-ancestors 'self'
+cache-control: no-cache, no-store
+pragma: no-cache
+expires: 0
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 90
+x-ratelimit-reset: 1715686937
+Timing-Allow-Origin: *
+content-encoding: gzip
+x-received-from: shard-prod-eu-west-1-3
+
+{
+    "id": "90153134233",
+    "name": "API Folder",
+    "orderindex": 0,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+        "id": "90152064765",
+        "name": "TestSpace",
+        "access": true
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [
+        
+    ],
+    "lists": [
+        
+    ],
+    "permission_level": "create"
+}
+Folder ID is: 90153134233
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add a new folder to space named &amp#27;[0m&amp#27;[32m&amp#27;[1m"API Folder"&amp#27;[0m             &amp#27;[90m# ClickUp.stepDef.ClickUpSteps.addNewFolderToSpace(java.lang.String)&amp#27;[0m
+Request method:	GET
+Request URI:	https://api.clickup.com/api/v2/folder/90153134233
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=pk_68663793_UZAS83JMQLMF40PEBEY6XY1LJAUAXH63
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 14 May 2024 11:42:02 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+x-dns-prefetch-control: off
+expect-ct: max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+content-language: en-US
+x-datadog-trace-id: 4549716181663293095
+content-security-policy: frame-ancestors 'self'
+cache-control: no-cache, no-store
+pragma: no-cache
+expires: 0
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1715686937
+Timing-Allow-Origin: *
+content-encoding: gzip
+x-received-from: shard-prod-eu-west-1-3
+
+{
+    "id": "90153134233",
+    "name": "API Folder",
+    "orderindex": 0,
+    "override_statuses": false,
+    "hidden": false,
+    "space": {
+        "id": "90152064765",
+        "name": "TestSpace",
+        "access": true
+    },
+    "task_count": "0",
+    "archived": false,
+    "statuses": [
+        {
+            "id": "p90152064765_S9uL4Tkh",
+            "status": "to do",
+            "orderindex": 0,
+            "color": "#87909e",
+            "type": "open"
+        },
+        {
+            "id": "p90152064765_pC9BNbF8",
+            "status": "in progress",
+            "orderindex": 1,
+            "color": "#5f55ee",
+            "type": "custom"
+        },
+        {
+            "id": "p90152064765_vQlvq7JP",
+            "status": "complete",
+            "orderindex": 2,
+            "color": "#008844",
+            "type": "closed"
+        }
+    ],
+    "lists": [
+        
+    ],
+    "permission_level": "create"
+}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI have a folder named API Folder&amp#27;[0m                           &amp#27;[90m# ClickUp.stepDef.ClickUpSteps.getFolderAndInfo()&amp#27;[0m
+Request method:	POST
+Request URI:	https://api.clickup.com/api/v2/folder/90153134233/list
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=pk_68663793_UZAS83JMQLMF40PEBEY6XY1LJAUAXH63
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "API List"
+}
+HTTP/1.1 200 OK
+Date: Tue, 14 May 2024 11:42:03 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+x-dns-prefetch-control: off
+expect-ct: max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+content-language: en-US
+x-datadog-trace-id: 5949392289310408884
+content-security-policy: frame-ancestors 'self'
+cache-control: no-cache, no-store
+pragma: no-cache
+expires: 0
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 88
+x-ratelimit-reset: 1715686937
+Timing-Allow-Origin: *
+content-encoding: gzip
+x-received-from: shard-prod-eu-west-1-3
+
+{
+    "id": "901504904241",
+    "name": "API List",
+    "deleted": false,
+    "orderindex": 0,
+    "content": "",
+    "priority": null,
+    "assignee": null,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+        "id": "90153134233",
+        "name": "API Folder",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90152064765",
+        "name": "TestSpace",
+        "access": true
+    },
+    "inbound_address": "a.t.901504904241.u-68663793.aaaf96be-ac3f-4960-979a-324140f6c604@tasks.clickup.com",
+    "archived": false,
+    "override_statuses": false,
+    "statuses": [
+        {
+            "id": "p90152064765_S9uL4Tkh",
+            "status": "to do",
+            "orderindex": 0,
+            "color": "#87909e",
+            "type": "open",
+            "status_group": "proj_90152064765"
+        },
+        {
+            "id": "p90152064765_pC9BNbF8",
+            "status": "in progress",
+            "orderindex": 1,
+            "color": "#5f55ee",
+            "type": "custom",
+            "status_group": "proj_90152064765"
+        },
+        {
+            "id": "p90152064765_vQlvq7JP",
+            "status": "complete",
+            "orderindex": 2,
+            "color": "#008844",
+            "type": "closed",
+            "status_group": "proj_90152064765"
+        }
+    ],
+    "permission_level": "create"
+}
+List ID is: 901504904241
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add a new List named &amp#27;[0m&amp#27;[32m&amp#27;[1m"API List"&amp#27;[0m                          &amp#27;[90m# ClickUp.stepDef.ClickUpSteps.addNewListToFolder(java.lang.String)&amp#27;[0m
+HTTP/1.1 200 OK
+Date: Tue, 14 May 2024 11:42:03 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+x-dns-prefetch-control: off
+expect-ct: max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+content-language: en-US
+x-datadog-trace-id: 8149422113488042779
+content-security-policy: frame-ancestors 'self'
+cache-control: no-cache, no-store
+pragma: no-cache
+expires: 0
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 87
+x-ratelimit-reset: 1715686937
+Timing-Allow-Origin: *
+content-encoding: gzip
+x-received-from: shard-prod-eu-west-1-3
+
+{
+    "id": "901504904241",
+    "name": "API List",
+    "deleted": false,
+    "orderindex": 0,
+    "content": "",
+    "priority": null,
+    "assignee": null,
+    "due_date": null,
+    "start_date": null,
+    "folder": {
+        "id": "90153134233",
+        "name": "API Folder",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90152064765",
+        "name": "TestSpace",
+        "access": true
+    },
+    "inbound_address": "a.t.901504904241.u-68663793.aaaf96be-ac3f-4960-979a-324140f6c604@tasks.clickup.com",
+    "archived": false,
+    "override_statuses": false,
+    "statuses": [
+        {
+            "id": "p90152064765_S9uL4Tkh",
+            "status": "to do",
+            "orderindex": 0,
+            "color": "#87909e",
+            "type": "open",
+            "status_group": "proj_90152064765"
+        },
+        {
+            "id": "p90152064765_pC9BNbF8",
+            "status": "in progress",
+            "orderindex": 1,
+            "color": "#5f55ee",
+            "type": "custom",
+            "status_group": "proj_90152064765"
+        },
+        {
+            "id": "p90152064765_vQlvq7JP",
+            "status": "complete",
+            "orderindex": 2,
+            "color": "#008844",
+            "type": "closed",
+            "status_group": "proj_90152064765"
+        }
+    ],
+    "permission_level": "create"
+}
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI have a list named API List&amp#27;[0m                               &amp#27;[90m# ClickUp.stepDef.ClickUpSteps.getListAndInfo()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI randomize a name for the task&amp#27;[0m                            &amp#27;[90m# ClickUp.stepDef.ClickUpSteps.taskNameRandomizer()&amp#27;[0m
+HTTP/1.1 200 OK
+Date: Tue, 14 May 2024 11:42:04 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: nginx
+x-dns-prefetch-control: off
+expect-ct: max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+content-language: en-US
+x-datadog-trace-id: 959680060867449635
+content-security-policy: frame-ancestors 'self'
+cache-control: no-cache, no-store
+pragma: no-cache
+expires: 0
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 86
+x-ratelimit-reset: 1715686937
+Timing-Allow-Origin: *
+content-encoding: gzip
+x-received-from: shard-prod-eu-west-1-3
+
+{
+    "id": "86byrphau",
+    "custom_id": null,
+    "custom_item_id": 0,
+    "name": "Task name is 2201",
+    "text_content": "",
+    "description": "",
+    "status": {
+        "id": "p90152064765_S9uL4Tkh",
+        "status": "to do",
+        "color": "#87909e",
+        "orderindex": 0,
+        "type": "open"
+    },
+    "orderindex": "39908151.00000000000000000000000000000000",
+    "date_created": "1715686924421",
+    "date_updated": "1715686924421",
+    "date_closed": null,
+    "date_done": null,
+    "archived": false,
+    "creator": {
+        "id": 68663793,
+        "username": "Nikita Jamrovskis",
+        "color": "",
+        "email": "nikita.jamrovskis@testdevlab.com",
+        "profilePicture": null
+    },
+    "assignees": [
+        
+    ],
+    "group_assignees": [
+        
+    ],
+    "watchers": [
+        {
+            "id": 68663793,
+            "username": "Nikita Jamrovskis",
+            "color": "",
+            "initials": "NJ",
+            "email": "nikita.jamrovskis@testdevlab.com",
+            "profilePicture": null
+        }
+    ],
+    "checklists": [
+        
+    ],
+    "tags": [
+        
+    ],
+    "parent": null,
+    "priority": null,
+    "due_date": null,
+    "start_date": null,
+    "points": null,
+    "time_estimate": null,
+    "time_spent": 0,
+    "custom_fields": [
+        
+    ],
+    "dependencies": [
+        
+    ],
+    "linked_tasks": [
+        
+    ],
+    "locations": [
+        
+    ],
+    "team_id": "9015611059",
+    "url": "https://app.clickup.com/t/86byrphau",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "create",
+    "list": {
+        "id": "901504904241",
+        "name": "API List",
+        "access": true
+    },
+    "project": {
+        "id": "90153134233",
+        "name": "API Folder",
+        "hidden": false,
+        "access": true
+    },
+    "folder": {
+        "id": "90153134233",
+        "name": "API Folder",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90152064765"
+    }
+}
+Task ID is: 86byrphau
+Task name is: Task name is 2201
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add a task with a random name to the list&amp#27;[0m                 &amp#27;[90m# ClickUp.stepDef.ClickUpSteps.addTaskToTheList()&amp#27;[0m
+HTTP/1.1 204 No Content
+Date: Tue, 14 May 2024 11:42:05 GMT
+Connection: keep-alive
+Server: nginx
+x-dns-prefetch-control: off
+expect-ct: max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+content-language: en-US
+x-datadog-trace-id: 2439030039458479487
+content-security-policy: frame-ancestors 'self'
+cache-control: no-cache, no-store
+pragma: no-cache
+expires: 0
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 85
+x-ratelimit-reset: 1715686937
+Timing-Allow-Origin: *
+x-received-from: shard-prod-eu-west-1-3
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI remove the task&amp#27;[0m                                           &amp#27;[90m# ClickUp.stepDef.ClickUpSteps.deleteTask()&amp#27;[0m
+HTTP/1.1 200 OK
+Date: Tue, 14 May 2024 11:42:06 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 2
+Connection: keep-alive
+Server: nginx
+x-dns-prefetch-control: off
+expect-ct: max-age=0
+strict-transport-security: max-age=31536000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+access-control-allow-origin: *
+access-control-allow-credentials: true
+content-language: en-US
+x-datadog-trace-id: 4289668743322078949
+content-security-policy: frame-ancestors 'self'
+cache-control: no-cache, no-store
+pragma: no-cache
+expires: 0
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 84
+x-ratelimit-reset: 1715686937
+Timing-Allow-Origin: *
+x-received-from: shard-prod-eu-west-1-3
+
+{
+    
+}
+]]></system-out>
+  </testcase>
+</testsuite>

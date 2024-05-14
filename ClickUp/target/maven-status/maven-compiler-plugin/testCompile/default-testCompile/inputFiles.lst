@@ -1,0 +1,10 @@
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/constants/ClickUpConstants.java
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/domain/Folder.java
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/domain/Lists.java
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/client/ClickUpClient.java
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/domain/Space.java
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/stepDef/Hooks.java
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/testRunner/TestRunner.java
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/stepDef/ClickUpSteps.java
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/helper/TestCaseContext.java
+/Users/nikita_j/IdeaProjects/ClickUp/src/test/java/ClickUp/domain/Task.java
